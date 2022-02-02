@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Audi</title>
+</head>
+<body>
+	<header>
+		<div class="first">
+			<img src="../img/logo.png">
+			<nav>
+				<ul>
+					<li><a href="#">HOMEPAGE</a></li>
+					<button class="menu-button">ABOUT US</button>
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="#">Our Team</a></li>
+								<li><a href="#">Leadership</a></li>
+								<li><a href="#">Partners</a></li>						
+							</ul>
+						</div>
+					<li><a href="#">PRODUCTS</a></li>
+					<li class="contacts"><a class="contacts" href="#">CONTACT US</a></li>		
+				</ul>
+			</nav>
+	</header>
+			<div class="strelicalevo"><img class="levo" src="../img/strelica.png"></div>
+			<div class="strelicadesno"><img class="desno" src="../img/strelica.png"></div>
+			<h6 class="first">NEW ARRIVAL</h6>
+			<h1 class="glavni">Expectations put limitions on possibilities</h1>
+			<img class="linija" src="../img/linija1.png">
+			<p class="describe">The Audi Q8 offers a unique perfomance<br> that blends sport and utility into a<br> momentous SUV design.</p>
+		</div>
+
+	<div class="second">
+		<div class="slika">
+			<img class="slika1" src="../img/about-us.png">
+			<p class="about">A progressive design, a powerful engine.</p>
+		</div>
+
+		<h6 class="about">ABOUT Q8</h6>
+		<h1 class="about">Welcome to the 8th<br>dimension. The new<br>Audi Q8</h1>
+		<h5 class="about">With its imposing Singleframe in octagonal<br>design, the Audi Q8 presents the new face of<br>the Q family.</h5>
+		<p class="about2">The radiator grille combines with the forward-mounter<br>spoiler and the strongly contoured air inlets to underline<br>its confident look.</p>
+	</div>
+		<div class="third">
+			<h6 class="featured">FEATURED</h6>
+			<h1 class="featured">Brand new The Audi RSQ8</h1>
+			<p class="featured">The RS Q8 gives you the choice: depending on the selected equimpment,its<br>looks are even bolder and sportier to suit your personal ambitions</p>
+			<div class="featured1">
+			</div>
+				<h2 class="featured1">POWER OUTPUT</h2>
+				<h1 class="featured1"> 441 kw </h1>
+				<h3 class="featured1">(600 hp)</h3>
+			<div class="featured2"></div>
+				<h2 class="featured2">ACCELERATION</h2>
+				<h1 class="featured2">3.8</h1>
+				<h3 class="featured2">second</h3>
+			<div class="featured3"></div>
+				<h2 class="featured3">TORQUE</h2>
+				<h1 class="featured3">800</h1>
+				<h3 class="featured3">Nm</h3>
+		</div>
+	<div class="fourth">
+		<h1 class="fourth">You might take a look...</h1>
+		<ul class="fourth">
+			<li><a href="#">All</a></li>
+			<li><a href="#">Hatchback</a></li>
+			<li><a href="#">Sportback</a></li>
+			<li><a href="#">Limousine</a></li>
+			<li><a href="#">SUV</a></li>
+			<li><a href="#">Cabrio</a></li>
+		</ul>
+		<div class="card-1">
+			<img class="products" src="../img/product3.png">
+			<h2>5 seats, 4 doors</h2>
+			<h1>Audi Q3 2020</h1>
+			<h3>Configurator</h3>
+			<p class="opis1">include 300 free km</p>
+			<p class="opis2">Theft Protection</p>
+			<p class="opis3">Non Refundable</p>
+			<p class="cena1">Starting from</p>
+			<img class="path" src="../img/Path.png">
+			<img class="path1" src="../img/Path.png">
+			<img class="path2" src="../img/Path.png">
+			<h5>29.999 €</h5>
+			<div class="popup" id="popup-1">
+				<div class="overlay"></div>
+				<div class="content">
+					<div class="close-btn" onclick="togglePopup()">&times;</div>
+					<img src="../img/product3.png">
+					<p>5 Seats, 4 doors</p>
+					<h2>Audi Q3 2020</h2>
+					<h1>Audi Configurator</h1>
+					<h4>Create your own audi</h4>
+					  <input type="button" class="button" value="Starting from 29.999 €" id="calcButton">
+					<label for="item1" class="container">
+					  <input type="checkbox" id ="item1" value="0.00">
+					  <span class="checkmark"></span>48-V electrical system (0,- EUR)
+					</label>
+
+					<label for="item2" class="container">
+					  <input type="checkbox" id ="item2" value="0.278">
+					  <span class="checkmark"></span>Adaptive air suspension - sport (278,60 EUR)
+					</label>
+
+					<label for="item3" class="container">
+					  <input type="checkbox" id ="item3" value="0.558">
+					  <span class="checkmark"></span>Acoustic side windows - optional (558,78 EUR)
+					</label>
+
+					<label for="item4" class="container">
+					  <input type="checkbox" id ="item4" value="0.357">
+					  <span class="checkmark"></span>Acoustic and heat-insulating glass (357,29 EUR)
+					</label>
+
+					<label for="item5" class="container">
+					  <input type="checkbox" id ="item5" value="0.637">
+					  <span class="checkmark"></span>Ambiental LED (637,48 EUR)
+					</label>
+					<p id="total" class="priceInfo"></p>
+				</div>
+			</div>
+
+			<button onclick="togglePopup()">Buy now</button>
+		</div>
+		<div class="card-2">
+			<img class="products" src="../img/product2.png">
+			<h2>5 seats, 4 doors</h2>
+			<h1>Audi A4 2020</h1>
+			<h3>Configurator</h3>
+			<p class="opis1">include 300 free km</p>
+			<p class="opis3">Non Refundable</p>
+			<p class="opis2">Theft Protection</p>
+			<p class="cena1">Starting from</p>
+			<img class="path" src="../img/Path.png">
+			<img class="path1" src="../img/Path.png">
+			<img class="path2" src="../img/Path.png">
+			<h5>24.999 €</h5>
+			
+			<button>Buy now</button>
+		</div>
+		<div class="card-3">
+			<h4 class="new">NEW</h4>
+			<img class="products" src="../img/product1.png">
+			<h2>5 seats, 4 doors</h2>
+			<h1>Audi A3 2020</h1>
+			<h3>Configurator</h3>
+			<p class="opis1">include 300 free km</p>
+			<p class="opis2">Theft Protection</p>
+			<p class="opis3">Non Refundable</p>
+			<p class="cena1">Starting from</p>
+			<img class="path" src="../img/Path.png">
+			<img class="path1" src="../img/Path.png">
+			<img class="path2" src="../img/Path.png">
+			<h5>19.999 €</h5>
+			<button>Buy now</button>
+		</div>
+		<div class="card-4">
+			<h4 class="new">NEW</h4>
+			<img class="products" src="../img/product4.png">
+			<h2>5 seats, 4 doors</h2>
+			<h1>Audi Q7 2020</h1>
+			<h3>Configurator</h3>
+			<p class="opis1">include 300 free km</p>
+			<p class="opis2">Theft Protection</p>
+			<p class="opis3">Non Refundable</p>
+			<p class="cena1">Starting from</p>
+			<img class="path" src="../img/Path.png">
+			<img class="path1" src="../img/Path.png">
+			<img class="path2" src="../img/Path.png">
+			<h5>39.999 €</h5>
+			<button>Buy now</button>
+		</div>
+
+	</div>
+	<div class="contact">
+		<h6>CONTACT US</h6>
+		<div class="form">
+			<label>
+				<input class="name" placeholder="ENTER YOUR NAME*" type="name" name="name">
+			</label>
+			<label>
+				<input class="email" placeholder="ENTER YOUR EMAIL*" type="email" name="email">
+			</label>
+			<label>
+				<input class="message" placeholder="YOUR MESSAGE*" type="message" name="message">
+			</label>
+			<a href="#"><button>Submit</button></a>			
+		</div>
+		<img src="../img/contact.png">
+		<h1>If you have any<br>questions don't<br>hesitate to contact us.</h1>
+
+		<p class="rights">@ 2020 FSD. ALL RIGHTS RESERVED</p>
+		<p class="terms">TERMS OF AGREEMENT</p>
+		<p class="policy">PRIVACY POLICY</p>
+
+	</div>
+	<script type="text/javascript">
+		function togglePopup() {
+			document.getElementById("popup-1").classList.toggle("active");
+		}
+	</script>
+	<script type="text/javascript">
+		
+         
+         function calcTotal()
+         {
+            var itemTotal = 29.999;
+            var items = document.getElementsByTagName("input");
+            
+
+            for (var i = 0; i < 11; i++)
+            {
+               if (items[i].checked)
+               {
+                  itemTotal += (items[i].value * 1)
+               }
+
+               document.getElementById("total").innerHTML = "Your order total is:  €" + itemTotal;
+              
+            }
+         }
+
+        
+         var calcButton = document.getElementById("calcButton"); 
+         if (calcButton.addEventListener) 
+         {
+            calcButton.addEventListener("click", calcTotal, false); 
+         }
+         else if (calcButton.attachEvent)
+         {
+            calcButton.attachEvent("onclick", calcTotal);   
+         }
+
+	</script>
+</body>
+</html>
